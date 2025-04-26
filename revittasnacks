@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevittaSnacks - Só o Bagaço</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f6fff6;
+      color: #333;
+    }
+    header {
+      background: #c3e6c3;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2a5d2a;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #2a5d2a;
+    }
+    .destaques {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .destaques div {
+      background: #e6f7e6;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 45%;
+    }
+    footer {
+      background: #c3e6c3;
+      padding: 30px;
+      text-align: center;
+    }
+    a {
+      color: #2a5d2a;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RevittaSnacks</h1>
+  <nav>
+    <a href="#quem-somos">Quem Somos</a>
+    <a href="#produto">Produto</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="quem-somos">
+  <h2>Quem Somos</h2>
+  <p>
+    RevittaSnacks é mais do que um lanche — é um estilo de vida.  
+    Acreditamos que dá pra comer bem, se sentir leve e ainda cuidar do planeta.
+    Nas nossas receitas, só entra o essencial: sabor de verdade, ingredientes naturais e uma vontade enorme de fazer diferente.
+  </p>
+</section>
+
+<section id="produto">
+  <h2>Nosso Produto – “Só o Bagaço”</h2>
+  <p>
+    Chegou o <strong>“Só o Bagaço”</strong>, o salgadinho saudável que vai virar seu vício do bem.  
+    Feito com ingredientes naturais, crocância na medida certa e embalado com responsabilidade.
+    Sim, nossa embalagem é renovável — porque o planeta também faz parte do nosso snack!
+  </p>
+
+  <div class="destaques">
+    <div>✔ 100% ingredientes naturais</div>
+    <div>✔ Sem conservantes</div>
+    <div>✔ Sabor real de vegetais</div>
+    <div>✔ Embalagem renovável</div>
+    <div>✔ Zero culpa e muita crocância!</div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>
+    Quer saber mais ou levar o Só o Bagaço pra sua loja?  
+    Fala com a gente!  
+  </p>
+  <p>
+    📧 <a href="mailto:contato@revittasnacks.com">contato@revittasnacks.com</a><br/>
+    📸 Instagram: <a href="https://www.instagram.com/revittasnacks">@revittasnacks</a><br/>
+    🌍 Estamos plantando snacks melhores por todo o Brasil.
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 RevittaSnacks. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
